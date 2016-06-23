@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA5376541D1B80F4005E4865 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5376531D1B80F4005E4865 /* AppDelegate.swift */; };
+		DA5376561D1B80F4005E4865 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5376551D1B80F4005E4865 /* FirstViewController.swift */; };
+		DA5376581D1B80F4005E4865 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5376571D1B80F4005E4865 /* SecondViewController.swift */; };
+		DA53765B1D1B80F5005E4865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5376591D1B80F5005E4865 /* Main.storyboard */; };
+		DA53765D1D1B80F5005E4865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA53765C1D1B80F5005E4865 /* Assets.xcassets */; };
+		DA5376601D1B80F5005E4865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA53765E1D1B80F5005E4865 /* LaunchScreen.storyboard */; };
+		DA53766B1D1B80F5005E4865 /* Vaidya_PIMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA53766A1D1B80F5005E4865 /* Vaidya_PIMTests.swift */; };
+		DA5376761D1B80F5005E4865 /* Vaidya_PIMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5376751D1B80F5005E4865 /* Vaidya_PIMUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA5376671D1B80F5005E4865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA5376481D1B80F4005E4865 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA53764F1D1B80F4005E4865;
+			remoteInfo = "Vaidya PIM";
+		};
+		DA5376721D1B80F5005E4865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA5376481D1B80F4005E4865 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA53764F1D1B80F4005E4865;
+			remoteInfo = "Vaidya PIM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA5376501D1B80F4005E4865 /* Vaidya PIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vaidya PIM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5376531D1B80F4005E4865 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA5376551D1B80F4005E4865 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DA5376571D1B80F4005E4865 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DA53765A1D1B80F5005E4865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA53765C1D1B80F5005E4865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA53765F1D1B80F5005E4865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA5376611D1B80F5005E4865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA5376661D1B80F5005E4865 /* Vaidya PIMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vaidya PIMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA53766A1D1B80F5005E4865 /* Vaidya_PIMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vaidya_PIMTests.swift; sourceTree = "<group>"; };
+		DA53766C1D1B80F5005E4865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA5376711D1B80F5005E4865 /* Vaidya PIMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vaidya PIMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5376751D1B80F5005E4865 /* Vaidya_PIMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vaidya_PIMUITests.swift; sourceTree = "<group>"; };
+		DA5376771D1B80F5005E4865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA53764D1D1B80F4005E4865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5376631D1B80F5005E4865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA53766E1D1B80F5005E4865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA5376471D1B80F4005E4865 = {
+			isa = PBXGroup;
+			children = (
+				DA5376521D1B80F4005E4865 /* Vaidya PIM */,
+				DA5376691D1B80F5005E4865 /* Vaidya PIMTests */,
+				DA5376741D1B80F5005E4865 /* Vaidya PIMUITests */,
+				DA5376511D1B80F4005E4865 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA5376511D1B80F4005E4865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA5376501D1B80F4005E4865 /* Vaidya PIM.app */,
+				DA5376661D1B80F5005E4865 /* Vaidya PIMTests.xctest */,
+				DA5376711D1B80F5005E4865 /* Vaidya PIMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA5376521D1B80F4005E4865 /* Vaidya PIM */ = {
+			isa = PBXGroup;
+			children = (
+				DA5376531D1B80F4005E4865 /* AppDelegate.swift */,
+				DA5376551D1B80F4005E4865 /* FirstViewController.swift */,
+				DA5376571D1B80F4005E4865 /* SecondViewController.swift */,
+				DA5376591D1B80F5005E4865 /* Main.storyboard */,
+				DA53765C1D1B80F5005E4865 /* Assets.xcassets */,
+				DA53765E1D1B80F5005E4865 /* LaunchScreen.storyboard */,
+				DA5376611D1B80F5005E4865 /* Info.plist */,
+			);
+			path = "Vaidya PIM";
+			sourceTree = "<group>";
+		};
+		DA5376691D1B80F5005E4865 /* Vaidya PIMTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA53766A1D1B80F5005E4865 /* Vaidya_PIMTests.swift */,
+				DA53766C1D1B80F5005E4865 /* Info.plist */,
+			);
+			path = "Vaidya PIMTests";
+			sourceTree = "<group>";
+		};
+		DA5376741D1B80F5005E4865 /* Vaidya PIMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA5376751D1B80F5005E4865 /* Vaidya_PIMUITests.swift */,
+				DA5376771D1B80F5005E4865 /* Info.plist */,
+			);
+			path = "Vaidya PIMUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA53764F1D1B80F4005E4865 /* Vaidya PIM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA53767A1D1B80F5005E4865 /* Build configuration list for PBXNativeTarget "Vaidya PIM" */;
+			buildPhases = (
+				DA53764C1D1B80F4005E4865 /* Sources */,
+				DA53764D1D1B80F4005E4865 /* Frameworks */,
+				DA53764E1D1B80F4005E4865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vaidya PIM";
+			productName = "Vaidya PIM";
+			productReference = DA5376501D1B80F4005E4865 /* Vaidya PIM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA5376651D1B80F5005E4865 /* Vaidya PIMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA53767D1D1B80F5005E4865 /* Build configuration list for PBXNativeTarget "Vaidya PIMTests" */;
+			buildPhases = (
+				DA5376621D1B80F5005E4865 /* Sources */,
+				DA5376631D1B80F5005E4865 /* Frameworks */,
+				DA5376641D1B80F5005E4865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA5376681D1B80F5005E4865 /* PBXTargetDependency */,
+			);
+			name = "Vaidya PIMTests";
+			productName = "Vaidya PIMTests";
+			productReference = DA5376661D1B80F5005E4865 /* Vaidya PIMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA5376701D1B80F5005E4865 /* Vaidya PIMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA5376801D1B80F5005E4865 /* Build configuration list for PBXNativeTarget "Vaidya PIMUITests" */;
+			buildPhases = (
+				DA53766D1D1B80F5005E4865 /* Sources */,
+				DA53766E1D1B80F5005E4865 /* Frameworks */,
+				DA53766F1D1B80F5005E4865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA5376731D1B80F5005E4865 /* PBXTargetDependency */,
+			);
+			name = "Vaidya PIMUITests";
+			productName = "Vaidya PIMUITests";
+			productReference = DA5376711D1B80F5005E4865 /* Vaidya PIMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA5376481D1B80F4005E4865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vaidya, Raghavendra (GE Global Research)";
+				TargetAttributes = {
+					DA53764F1D1B80F4005E4865 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DA5376651D1B80F5005E4865 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DA53764F1D1B80F4005E4865;
+					};
+					DA5376701D1B80F5005E4865 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DA53764F1D1B80F4005E4865;
+					};
+				};
+			};
+			buildConfigurationList = DA53764B1D1B80F4005E4865 /* Build configuration list for PBXProject "Vaidya PIM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA5376471D1B80F4005E4865;
+			productRefGroup = DA5376511D1B80F4005E4865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA53764F1D1B80F4005E4865 /* Vaidya PIM */,
+				DA5376651D1B80F5005E4865 /* Vaidya PIMTests */,
+				DA5376701D1B80F5005E4865 /* Vaidya PIMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA53764E1D1B80F4005E4865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5376601D1B80F5005E4865 /* LaunchScreen.storyboard in Resources */,
+				DA53765D1D1B80F5005E4865 /* Assets.xcassets in Resources */,
+				DA53765B1D1B80F5005E4865 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5376641D1B80F5005E4865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA53766F1D1B80F5005E4865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA53764C1D1B80F4005E4865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5376581D1B80F4005E4865 /* SecondViewController.swift in Sources */,
+				DA5376541D1B80F4005E4865 /* AppDelegate.swift in Sources */,
+				DA5376561D1B80F4005E4865 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5376621D1B80F5005E4865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA53766B1D1B80F5005E4865 /* Vaidya_PIMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA53766D1D1B80F5005E4865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5376761D1B80F5005E4865 /* Vaidya_PIMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA5376681D1B80F5005E4865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA53764F1D1B80F4005E4865 /* Vaidya PIM */;
+			targetProxy = DA5376671D1B80F5005E4865 /* PBXContainerItemProxy */;
+		};
+		DA5376731D1B80F5005E4865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA53764F1D1B80F4005E4865 /* Vaidya PIM */;
+			targetProxy = DA5376721D1B80F5005E4865 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA5376591D1B80F5005E4865 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA53765A1D1B80F5005E4865 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA53765E1D1B80F5005E4865 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA53765F1D1B80F5005E4865 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA5376781D1B80F5005E4865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA5376791D1B80F5005E4865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA53767B1D1B80F5005E4865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vaidya PIM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vaidya.Vaidya-PIM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA53767C1D1B80F5005E4865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vaidya PIM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vaidya.Vaidya-PIM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA53767E1D1B80F5005E4865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Vaidya PIMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vaidya.Vaidya-PIMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vaidya PIM.app/Vaidya PIM";
+			};
+			name = Debug;
+		};
+		DA53767F1D1B80F5005E4865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Vaidya PIMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vaidya.Vaidya-PIMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vaidya PIM.app/Vaidya PIM";
+			};
+			name = Release;
+		};
+		DA5376811D1B80F5005E4865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Vaidya PIMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vaidya.Vaidya-PIMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Vaidya PIM";
+			};
+			name = Debug;
+		};
+		DA5376821D1B80F5005E4865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Vaidya PIMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vaidya.Vaidya-PIMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Vaidya PIM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA53764B1D1B80F4005E4865 /* Build configuration list for PBXProject "Vaidya PIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5376781D1B80F5005E4865 /* Debug */,
+				DA5376791D1B80F5005E4865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA53767A1D1B80F5005E4865 /* Build configuration list for PBXNativeTarget "Vaidya PIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA53767B1D1B80F5005E4865 /* Debug */,
+				DA53767C1D1B80F5005E4865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA53767D1D1B80F5005E4865 /* Build configuration list for PBXNativeTarget "Vaidya PIMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA53767E1D1B80F5005E4865 /* Debug */,
+				DA53767F1D1B80F5005E4865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA5376801D1B80F5005E4865 /* Build configuration list for PBXNativeTarget "Vaidya PIMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5376811D1B80F5005E4865 /* Debug */,
+				DA5376821D1B80F5005E4865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA5376481D1B80F4005E4865 /* Project object */;
+}
