@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA2CD4A71D2AA4BE00962F8F /* PIMModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA2CD4A51D2AA4BE00962F8F /* PIMModel.xcdatamodeld */; };
+		DA3961B91D3A0F5300C6AF83 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3961AF1D3A0F5300C6AF83 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DA3961BA1D3A0F5300C6AF83 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3961B11D3A0F5300C6AF83 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DA3961BB1D3A0F5300C6AF83 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3961B31D3A0F5300C6AF83 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DA3961BC1D3A0F5300C6AF83 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3961B51D3A0F5300C6AF83 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DA3961BD1D3A0F5300C6AF83 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3961B81D3A0F5300C6AF83 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DA5376541D1B80F4005E4865 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5376531D1B80F4005E4865 /* AppDelegate.swift */; };
 		DA5376561D1B80F4005E4865 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5376551D1B80F4005E4865 /* FirstViewController.swift */; };
 		DA5376581D1B80F4005E4865 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5376571D1B80F4005E4865 /* SecondViewController.swift */; };
@@ -15,6 +21,14 @@
 		DA5376601D1B80F5005E4865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA53765E1D1B80F5005E4865 /* LaunchScreen.storyboard */; };
 		DA53766B1D1B80F5005E4865 /* Vaidya_PIMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA53766A1D1B80F5005E4865 /* Vaidya_PIMTests.swift */; };
 		DA5376761D1B80F5005E4865 /* Vaidya_PIMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5376751D1B80F5005E4865 /* Vaidya_PIMUITests.swift */; };
+		DA66C9A11D39FD87003B2344 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA66C9A01D39FD87003B2344 /* libsqlite3.0.tbd */; };
+		DA66C9A41D3A01CA003B2344 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66C9A31D3A01CA003B2344 /* Utility.swift */; };
+		DA66C9A61D3A04D0003B2344 /* Vaidya_PIM.db in Resources */ = {isa = PBXBuildFile; fileRef = DA66C9A51D3A04D0003B2344 /* Vaidya_PIM.db */; };
+		DA66C9A81D3A056B003B2344 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66C9A71D3A056B003B2344 /* ModelManager.swift */; };
+		DA66C9AC1D3A0727003B2344 /* src in Resources */ = {isa = PBXBuildFile; fileRef = DA66C9AB1D3A0727003B2344 /* src */; };
+		DA66C9C81D3A0C50003B2344 /* fmdb in Resources */ = {isa = PBXBuildFile; fileRef = DA66C9C51D3A0C50003B2344 /* fmdb */; };
+		DA7027F41D4655CF001CC7CC /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7027F31D4655CF001CC7CC /* Account.swift */; };
+		DA8DAB851D40B262005C8D8F /* DBSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8DAB841D40B262005C8D8F /* DBSync.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA2CD4A61D2AA4BE00962F8F /* PIMModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PIMModel.xcdatamodel; sourceTree = "<group>"; };
+		DA3961AE1D3A0F5300C6AF83 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		DA3961AF1D3A0F5300C6AF83 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		DA3961B01D3A0F5300C6AF83 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		DA3961B11D3A0F5300C6AF83 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		DA3961B21D3A0F5300C6AF83 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		DA3961B31D3A0F5300C6AF83 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		DA3961B41D3A0F5300C6AF83 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		DA3961B51D3A0F5300C6AF83 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		DA3961B61D3A0F5300C6AF83 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		DA3961B71D3A0F5300C6AF83 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		DA3961B81D3A0F5300C6AF83 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		DA5376501D1B80F4005E4865 /* Vaidya PIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vaidya PIM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5376531D1B80F4005E4865 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA5376551D1B80F4005E4865 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +75,15 @@
 		DA5376711D1B80F5005E4865 /* Vaidya PIMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vaidya PIMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5376751D1B80F5005E4865 /* Vaidya_PIMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vaidya_PIMUITests.swift; sourceTree = "<group>"; };
 		DA5376771D1B80F5005E4865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA66C9A01D39FD87003B2344 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		DA66C9A21D39FE14003B2344 /* Vaidya PIM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vaidya PIM-Bridging-Header.h"; sourceTree = "<group>"; };
+		DA66C9A31D3A01CA003B2344 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		DA66C9A51D3A04D0003B2344 /* Vaidya_PIM.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vaidya_PIM.db; sourceTree = "<group>"; };
+		DA66C9A71D3A056B003B2344 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelManager.swift; path = ../ModelManager.swift; sourceTree = "<group>"; };
+		DA66C9AB1D3A0727003B2344 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = "/Users/302000545/Documents/workspace/Vaidya PIM/src"; sourceTree = "<absolute>"; };
+		DA66C9C51D3A0C50003B2344 /* fmdb */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fmdb; path = "/Users/302000545/Documents/workspace/Vaidya PIM/src/fmdb"; sourceTree = "<absolute>"; };
+		DA7027F31D4655CF001CC7CC /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		DA8DAB841D40B262005C8D8F /* DBSync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBSync.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA66C9A11D39FD87003B2344 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +115,9 @@
 		DA5376471D1B80F4005E4865 = {
 			isa = PBXGroup;
 			children = (
+				DA66C9A51D3A04D0003B2344 /* Vaidya_PIM.db */,
+				DA66C9A21D39FE14003B2344 /* Vaidya PIM-Bridging-Header.h */,
+				DA66C9A01D39FD87003B2344 /* libsqlite3.0.tbd */,
 				DA5376521D1B80F4005E4865 /* Vaidya PIM */,
 				DA5376691D1B80F5005E4865 /* Vaidya PIMTests */,
 				DA5376741D1B80F5005E4865 /* Vaidya PIMUITests */,
@@ -99,6 +138,18 @@
 		DA5376521D1B80F4005E4865 /* Vaidya PIM */ = {
 			isa = PBXGroup;
 			children = (
+				DA3961AE1D3A0F5300C6AF83 /* FMDatabase.h */,
+				DA3961AF1D3A0F5300C6AF83 /* FMDatabase.m */,
+				DA3961B01D3A0F5300C6AF83 /* FMDatabaseAdditions.h */,
+				DA3961B11D3A0F5300C6AF83 /* FMDatabaseAdditions.m */,
+				DA3961B21D3A0F5300C6AF83 /* FMDatabasePool.h */,
+				DA3961B31D3A0F5300C6AF83 /* FMDatabasePool.m */,
+				DA3961B41D3A0F5300C6AF83 /* FMDatabaseQueue.h */,
+				DA3961B51D3A0F5300C6AF83 /* FMDatabaseQueue.m */,
+				DA3961B61D3A0F5300C6AF83 /* FMDB.h */,
+				DA3961B71D3A0F5300C6AF83 /* FMResultSet.h */,
+				DA3961B81D3A0F5300C6AF83 /* FMResultSet.m */,
+				DA66C9A71D3A056B003B2344 /* ModelManager.swift */,
 				DA5376531D1B80F4005E4865 /* AppDelegate.swift */,
 				DA5376551D1B80F4005E4865 /* FirstViewController.swift */,
 				DA5376571D1B80F4005E4865 /* SecondViewController.swift */,
@@ -106,6 +157,10 @@
 				DA53765C1D1B80F5005E4865 /* Assets.xcassets */,
 				DA53765E1D1B80F5005E4865 /* LaunchScreen.storyboard */,
 				DA5376611D1B80F5005E4865 /* Info.plist */,
+				DA2CD4A51D2AA4BE00962F8F /* PIMModel.xcdatamodeld */,
+				DA66C9A31D3A01CA003B2344 /* Utility.swift */,
+				DA8DAB841D40B262005C8D8F /* DBSync.swift */,
+				DA7027F31D4655CF001CC7CC /* Account.swift */,
 			);
 			path = "Vaidya PIM";
 			sourceTree = "<group>";
@@ -232,7 +287,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA66C9C81D3A0C50003B2344 /* fmdb in Resources */,
+				DA66C9A61D3A04D0003B2344 /* Vaidya_PIM.db in Resources */,
 				DA5376601D1B80F5005E4865 /* LaunchScreen.storyboard in Resources */,
+				DA66C9AC1D3A0727003B2344 /* src in Resources */,
 				DA53765D1D1B80F5005E4865 /* Assets.xcassets in Resources */,
 				DA53765B1D1B80F5005E4865 /* Main.storyboard in Resources */,
 			);
@@ -259,9 +317,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA66C9A41D3A01CA003B2344 /* Utility.swift in Sources */,
+				DA7027F41D4655CF001CC7CC /* Account.swift in Sources */,
+				DA2CD4A71D2AA4BE00962F8F /* PIMModel.xcdatamodeld in Sources */,
 				DA5376581D1B80F4005E4865 /* SecondViewController.swift in Sources */,
+				DA3961B91D3A0F5300C6AF83 /* FMDatabase.m in Sources */,
+				DA3961BB1D3A0F5300C6AF83 /* FMDatabasePool.m in Sources */,
+				DA3961BC1D3A0F5300C6AF83 /* FMDatabaseQueue.m in Sources */,
 				DA5376541D1B80F4005E4865 /* AppDelegate.swift in Sources */,
 				DA5376561D1B80F4005E4865 /* FirstViewController.swift in Sources */,
+				DA8DAB851D40B262005C8D8F /* DBSync.swift in Sources */,
+				DA3961BD1D3A0F5300C6AF83 /* FMResultSet.m in Sources */,
+				DA66C9A81D3A056B003B2344 /* ModelManager.swift in Sources */,
+				DA3961BA1D3A0F5300C6AF83 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +477,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vaidya.Vaidya-PIM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./Vaidya PIM-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -420,6 +489,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vaidya.Vaidya-PIM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./Vaidya PIM-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -488,6 +558,7 @@
 				DA53767C1D1B80F5005E4865 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA53767D1D1B80F5005E4865 /* Build configuration list for PBXNativeTarget "Vaidya PIMTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +567,7 @@
 				DA53767F1D1B80F5005E4865 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA5376801D1B80F5005E4865 /* Build configuration list for PBXNativeTarget "Vaidya PIMUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,8 +576,22 @@
 				DA5376821D1B80F5005E4865 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA2CD4A51D2AA4BE00962F8F /* PIMModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA2CD4A61D2AA4BE00962F8F /* PIMModel.xcdatamodel */,
+			);
+			currentVersion = DA2CD4A61D2AA4BE00962F8F /* PIMModel.xcdatamodel */;
+			path = PIMModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DA5376481D1B80F4005E4865 /* Project object */;
 }
